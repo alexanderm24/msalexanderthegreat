@@ -1,0 +1,142 @@
+body {
+    background-color: #0F2C41;
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: "Baskerville";
+    color:white;
+    text-shadow:  0 0 1.328vw #091a27;
+}
+
+.title {
+    font-size: 6.5vw;
+    top: 0;
+    text-shadow:  0 0 1.328vw #091a27;
+    width:fit-content;
+}
+
+.tg-script {
+    font-family: "Pacifico";
+    color: white;
+    rotate: -14deg;
+    z-index: 9;
+    font-size: 2.5vw;
+    width: 5vw;
+    margin-top: 5vw;
+    margin-left: 33vw;
+    position: absolute;
+    width:fit-content;
+}
+
+.glow {
+    color: #fff;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow:  0 0 0.391vw #e60073, 0 0 0.781vw #e60073, 0 0 1.172vw #e60073, 0 0 1.563vw #e60073, 0 0 1.953vw #e60073;
+    }
+    to {
+      text-shadow:  0 0 0.781vw #ff4da6, 0 0 1.172vw #ff4da6, 0 0 1.563vw #ff4da6, 0 0 1.953vw #ff4da6, 0 0 2.344vw #ff4da6, 0 0 2.734vw #ff4da6;
+    }
+  }
+
+
+.main-t {
+    max-width: 60rem;
+    margin-top: 5vw;
+    padding-left: 2rem;
+}
+
+.sub-t {
+    padding-left: 2rem;
+}
+
+.text {
+    max-width: 575;
+    padding-left: 2rem;
+}
+
+#coverpic {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100vh;
+    width: 40%;
+    object-fit: cover;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 5vw;
+    max-width: 582;
+}
+
+a {
+    color:#fc78ba;
+}
+
+@media only screen and (max-width: 475px) {
+
+    #coverpic {
+        float: none;
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .title {
+        margin-top: 28px;
+        text-align: center;
+        font-size: 55px;
+        top: 0;
+        text-shadow:  0 0 1.328vw #091a27;
+        width:fit-content;
+        position: absolute;
+    }
+
+    .main-t {
+        margin-top: 10;
+        max-width: 390px;
+    }
+
+    .tg-script {
+        font-size: 22px;
+        margin-top: 16vw;
+        margin-left: 66vw;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .sub-t {
+        max-width: 390px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 500px;
+    }
+
+    .text {
+        max-width: 390px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    .socials {
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+
+  }
